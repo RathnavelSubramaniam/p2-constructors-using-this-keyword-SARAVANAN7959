@@ -53,7 +53,7 @@ public class Practical2 {
         product3.displayProductInfo();
         System.out.println();
 
-        // Calculate and display discounted price
+        
         double discountPercentage = 10;
         double discountedPrice = product1.calculateDiscountedPrice(discountPercentage);
         System.out.println("Discounted Price of Product 1 with " + discountPercentage + "% discount: $" + discountedPrice);
